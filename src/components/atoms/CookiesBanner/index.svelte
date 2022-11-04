@@ -17,7 +17,7 @@
   <div transition:fly="{{ y: 200, duration: 2000 }}">
     <span>
       <button type="button" on:click={handleShowBanner}>X</button>
-      <p>This website uses cookies, but at no time will it sotre any personal data.</p>
+      <p>This website uses cookies, but at no time will it store any personal data.</p>
     </span>
   </div>
 {/if}
