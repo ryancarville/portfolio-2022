@@ -10,9 +10,10 @@
       isCopied = false;
     }, 2000)
   }
+  const handleTopScroll = () => window.scrollTo(0, 0);
 </script>
 <nav>
-  <p>Ryan Carville</p>
+  <p on:click={handleTopScroll} on:keyup={handleTopScroll} title="Scroll to top">Ryan Carville</p>
   <span>
     <ContactDetails />
   </span>
@@ -34,6 +35,10 @@
     border-radius: 0em 0em 1em 1em;
     font-size: 1.1em;
   }
+  p {
+    cursor: pointer;
+  }
+  
   span {
     display: none;
   }

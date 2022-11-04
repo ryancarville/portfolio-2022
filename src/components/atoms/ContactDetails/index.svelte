@@ -49,6 +49,9 @@
     flex-wrap: wrap;
     width: 100%;
   }
+  .contactDetailsWrapper > * {
+    margin: 0.2em
+  }
   #email {
     cursor: pointer;
     color: #646cff;

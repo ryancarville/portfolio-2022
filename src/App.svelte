@@ -35,11 +35,11 @@
 
 <style>
   main {
-    display: grid;
-    grid-template-rows: auto;
+    display: flex;
+    flex-direction: column;
   }
   h2 {
     text-align: center;
-    margin: 2em 0 2em 0;
+    /* margin: 1.5em 0 0 0; */
   }
 </style>

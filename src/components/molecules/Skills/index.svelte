@@ -15,6 +15,7 @@
     max-width: 100vw;
     margin: 0 auto 0 auto;
     text-align: center;
+    padding: 0 1em 0 1em;
   }
   ul {
     list-style: none;
@@ -24,10 +25,13 @@
   }
   @media only screen and (min-width: 700px) {
     div {
-      text-align: right;
+      text-align: left;
+    }
+    h2 {
+      text-align: center;
     }
     ul {
-      grid-template-columns: repeat(4, auto);
+      grid-template-columns: repeat(5, auto);
       max-width: 100vw;
     }
   }

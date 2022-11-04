@@ -9,7 +9,7 @@
     flex-direction: column;
     justify-content: center;
     grid-gap: 1.5em;
-    padding: 1em;
+    padding: 1em ;
   }
   div:nth-child(even) {
     background-color:#BADA55;
@@ -18,8 +18,6 @@
   @media only screen and (min-width: 700px) {
     div {
       flex-direction: row;
-      width: 100vw;
-      padding: 0 0 3em 0;
     }
   }
 </style>

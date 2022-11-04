@@ -31,9 +31,10 @@
     width: 100%;
     display: flex;
     flex-direction: column;
-    align-items: flex-end;
+    padding: 1em;
   }
   h2 {
+    margin: 0 0 1em 0;
     text-align: center;
   }
   .inforWrapper {
@@ -48,18 +49,19 @@
   }
   @media only screen and (min-width: 700px) {
     .aboutWrapper {
-      padding: 3em;
+      font-size: 1.2em;
+      align-items: flex-end;
     }
     .inforWrapper {
       flex-direction: row;
+      margin: 0 auto 0 auto;
+      width: 80%;
     }
     img {
       max-width: 15vw;
       float: left;
       margin: 0 2em 0 0;
     }
-    p {
-      margin: auto 0 auto 0;
-    }
+
   }
 </style>
