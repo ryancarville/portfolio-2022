@@ -46,7 +46,7 @@
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
-    max-width: 40em;
+    max-width: 40vw;
     width: 100%;
   }
   #email {

@@ -25,7 +25,7 @@
     justify-content: center;
     align-items: center;
     top: 0;
-    max-height: 2.5vh;
+    max-height: 7vh;
     padding: 1em;
     position: sticky;
     top: 0;

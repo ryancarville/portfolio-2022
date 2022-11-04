@@ -96,7 +96,7 @@
   }
   @media only screen and (min-width: 700px) {
     .cardWrapper {
-      max-width: 20vw;
+      max-width: 30vw;
     }
   }
 </style>
