@@ -5,6 +5,7 @@
   import About from '../src/components/molecules/About/index.svelte';
   import Skills from '../src/components/molecules/Skills/index.svelte';
   import ProjectCard from './components/molecules/ProjectCard/index.svelte';
+  import CookieBanner from '../src/components/atoms/CookiesBanner/index.svelte';
   import { allProjects } from './staticData/projects';
 </script>
 
@@ -31,6 +32,7 @@
     <Skills />
   </Content>
   <Footer />
+  <CookieBanner />
 </main>
 
 <style>
