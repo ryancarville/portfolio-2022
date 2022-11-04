@@ -3,7 +3,6 @@
   const getCookie = (name) => {
     let value = `; ${document.cookie}`;
     let parts = value.split(`; ${name}=`);
-    console.log(parts)
     if (parts.length === 2) return parts.pop().split(';').shift();
     return true;
   }
@@ -27,7 +26,6 @@
   div {
     width: 100vw;
     height: auto;
-
     color: white;
     bottom: 0;
     position: sticky;
