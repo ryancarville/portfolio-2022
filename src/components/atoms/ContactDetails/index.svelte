@@ -45,8 +45,8 @@
   .contactDetailsWrapper {
     display: flex;
     justify-content: space-evenly;
+    align-items: center;
     flex-wrap: wrap;
-    max-width: 40vw;
     width: 100%;
   }
   #email {
