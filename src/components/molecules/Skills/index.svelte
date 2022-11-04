@@ -22,6 +22,7 @@
     display: grid;
     grid-template-columns: repeat(2, auto);
     column-gap: 2em;
+    padding: 0;
   }
   @media only screen and (min-width: 700px) {
     div {
