@@ -15,7 +15,7 @@
 <div class={'aboutWrapper'}>
   <h2>About</h2>
   <span class={'inforWrapper'}>
-    <img src={'/ryanCarville.jpg'} alt={"Ryan Carville"} />
+    <img src={'images/ryanCarville.jpg'} alt={"Ryan Carville"} />
     <p>
       Accomplished problem solver and creative expert with extensive experience building full stack platforms, scaling projects/platforms, as well as creating and deploying commercial imagery as content. Providing thought partnership, leading with expertise to advise and deliver for clients and employers. Demonstrating high learning agility, changing career while remaining focused on using existing mastery of skills in new and different contexts. Comfortable with high levels of ambiguity and self motivating. Enjoy working in fast paced environments, focused on delivering results, and excited by new and complex challenges.
     </p>

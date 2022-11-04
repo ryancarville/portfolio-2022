@@ -27,7 +27,7 @@
     GitHub
   </a>
   <a
-    href={"/src/static/ryancarville2022.pdf"}
+    href={"images/ryancarville2022.pdf"}
     download
     title={'Ryan Carville CV'}
   >
