@@ -1,5 +1,5 @@
-import Home from './routes/Home/index.svelte';
-import NotFound from './routes/NotFound/index.svelte';
+import Home from './routes/Home.svelte';
+import NotFound from './routes/NotFound.svelte';
 
 export const routes = {
   '/': Home,
