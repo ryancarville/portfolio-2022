@@ -1,4 +1,5 @@
 <script>
+  import { fade } from "svelte/transition";
   export let title;
   export let imgUrl;
   export let imgAlt;
@@ -13,13 +14,13 @@
     <h2>{title}</h2>
     <p>{contentText}</p>
   </div>
-  <img src={imgUrl} alt={imgAlt} />
+  <img src={imgUrl} alt={imgAlt} loading={"lazy"}/>
   <div class={'techStack'}>
     <h4>Tech Stack</h4>
     <ul>
       {#each techStack as tech}
         <li>
-          <img src={tech.logoPath} alt={tech.name} />
+          <img src={tech.logoPath} alt={tech.name} loading={"lazy"}/>
           {tech.name}
         </li>
       {/each}
