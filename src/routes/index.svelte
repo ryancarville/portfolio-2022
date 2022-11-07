@@ -3,7 +3,7 @@
 </script>
 <div class={'notFoundWraper'}>
   <h1>Opps! This page was not found.</h1>
-  <a href={'/'}>Go Home</a>
+  <a href={'/'} use:link>Go Home</a>
 </div>
 
 <style>
