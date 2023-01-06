@@ -66,7 +66,7 @@ export const allProjects: Project[] = [
     imgAlt: 'Route Builder',
     contentText: 'Komoot style cross country route planer',
     imgUrl: 'images/komoot.png',
-    urlPath: 'http://komoot-route-builder.herokuapp.com/',
+    urlPath: 'https://bejewelled-moonbeam-30039a.netlify.app/',
     repoUrl: 'https://github.com/ryancarville/komoot-route-builder',
     techStack: [
       { name: 'TypeScript', logoPath: 'images/icons/typescript.svg' },
