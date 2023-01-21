@@ -17,7 +17,7 @@
   <span class={'inforWrapper'}>
     <img src={'images/ryanCarville.jpg'} alt={"Ryan Carville"} />
     <p>
-      Accomplished problem solver and creative expert with extensive experience building full stack platforms, scaling projects/platforms, as well as creating and deploying commercial imagery as content. Providing thought partnership, leading with expertise to advise and deliver for clients and employers. Demonstrating high learning agility, changing career while remaining focused on using existing mastery of skills in new and different contexts. Comfortable with high levels of ambiguity and self motivating. Enjoy working in fast paced environments, focused on delivering results, and excited by new and complex challenges.
+      Accomplished problem solver and creative expert with five years experience building full-stack platforms, scaling projects/platforms, as well as creating and deploying commercial imagery as content. Providing thought partnership, leading with expertise to advise and deliver for clients and employers. Demonstrating high learning agility, changing careers while remaining focused on using the existing mastery of skills in new and different contexts. Comfortable with high levels of ambiguity and self-motivating. Enjoy working in fast-paced environments, am focused on delivering results, and am excited by new and complex challenges.
     </p>
   </span>
   {#if isMobile}
